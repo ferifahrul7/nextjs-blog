@@ -1,8 +1,9 @@
-
+import Link from 'next/link'
 export const about = () => {
 	return (
 		<div>
-			Halo
+			Halo {` `}
+			<Link href="/">Kembali</Link>
 		</div>
 	)
 }
