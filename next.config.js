@@ -1,6 +1,9 @@
-module.exports = {
-    webpack: (config, options) => {
-        config.optimization.minimize = false;
-      return config
-    }
+module.exports = (phase, { defaultConfig }) => {
+	/**
+	 * @type {import('next').NextConfig}
+	 */
+	const nextConfig = {
+        phase,optimization,minimize = false
+	}
+	return nextConfig
   }
