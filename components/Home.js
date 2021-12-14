@@ -1,11 +1,10 @@
-import Image from "next/image"
 const Home = () => {
 	return (
 		<div>
 			<div class="mt-24 lg:mt-30 grid place-items-center">
 				<section className="bg-blue-200 rounded-lg shadow-lg lg:w-6/12">
 					<div className="-translate-y-24 text-center">
-						<Image src="/assets/images/photo.jpg" className="shadow-lg" width={200} height={200} />
+						<image src="/assets/images/photo.jpg" className="shadow-lg" width={200} height={200} />
 						<div className="mx-auto">
 							<h1 className="text-2xl text-center font-bold text-blue-900 mt-2">Feri Fahrul Nurashari</h1>
 							<h2 className="text-sm font-bold">Web Developer</h2>
