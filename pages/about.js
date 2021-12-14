@@ -1,10 +1,8 @@
 import Link from 'next/link'
+import About from '../components/About'
 export const about = () => {
 	return (
-		<div>
-			Halo {` `}
-			<Link href="/">Kembali</Link>
-		</div>
+		<About />
 	)
 }
 export default about

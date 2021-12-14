@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@layer components {
+    .nav-link {
+        @apply text-theme-birutua uppercase transition duration-300
+    }
+    .nav-link:hover {
+        @apply text-theme-biru
+    }
+    @layer components {
+        .btn {
+            @apply shadow-md rounded-md font-semibold px-6 py-3 transition duration-300
+        }
+        .btn-primary {
+            @apply bg-theme-biru text-white
+        }
+        .btn-primary:hover {
+            @apply bg-theme-birutua
+        }
+        .btn-secondary {
+            @apply bg-theme-putih text-black
+        }
+        .btn-secondary:hover {
+            @apply bg-theme-hitam text-gray-200
+        }
+    }
+}
