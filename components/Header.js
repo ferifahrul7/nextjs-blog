@@ -1,4 +1,6 @@
 import Link from "next/link"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 const Header = () => {
 	return (
 		<>
@@ -10,12 +12,15 @@ const Header = () => {
 					<ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-blue-900 uppercase text-xs">
 						<li className="cursor-pointer nav-link">
 							<Link href="/">Home</Link>
-						</li><li className="cursor-pointer nav-link">
-							<Link href="/about">Tentang</Link>
 						</li>
-						<li className="cursor-pointer nav-link">Kontak</li>
+						<li className="cursor-pointer nav-link">
+							<Link href="/about">About Me</Link>
+						</li>
+						<li className="cursor-pointer nav-link">
+							<Link href="/contact">Contact</Link>
+						</li>
 						<li className="cursor-pointer nav-link">Portfolio</li>
-						<button type="button" className="bg-indigo-500 hover:bg-indigo-800 px-7 py-3 rounded-md text-white uppercase">Call</button>
+						<a href="mailto:ferifahrul7@gmail.com" className="bg-indigo-500 hover:bg-indigo-800 px-7 py-3 rounded-md text-white uppercase" ><FontAwesomeIcon icon={faEnvelope} /></a>
 					</ul>
 					<div className="flex sm:hidden flex-1 mx-3 justify-end"><i className="text-2xl fas fa-bars"></i></div>
 				</nav>
