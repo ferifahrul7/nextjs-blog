@@ -6,7 +6,7 @@ const About = () => {
 				<div className="sm:w-3/4 lg:w-5/12 mx-auto px-2">
 					<h1 className="text-4xl text-center font-bold text-blue-500">Tentang Saya</h1>
 					<p className="text-blue-500 text-center mt-4">
-						Saya suka mempelajari hal tentang teknologi. Saya sedang memperdalam bahasa pemrograman php dan mempelajari bahasa dart, oh ya, website ini dibuat dengan framework tailwindcss. terkadang saya suka menonton anime, anime favorit saya itu Hunter x Hunter.
+						I like to learn things about technology. I'm deepening the php programming language and learning the dart language, oh yes, this website is made with the tailwind.css framework. sometimes I like watching anime, my favorite anime is Hunter x Hunter.
 					</p>
 				</div>
 			</section>
